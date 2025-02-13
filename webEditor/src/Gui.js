@@ -5,14 +5,14 @@ class Gui {
     this.model = model;
 
     this.gui = new GUI();
-    this.globalFolder = this.gui.addFolder('Edit surface contour');
+    this.globalFolder = this.gui.addFolder('Edit Surface Contour');
 
-    this.moduleFolder = this.gui.addFolder('Edit selected cells');
+    this.moduleFolder = this.gui.addFolder('Edit Selected Cells');
     this.moduleFolder.open();
 
-    this.groupFolder = this.gui.addFolder('Group cells');
+    this.groupFolder = this.gui.addFolder('Group Cells');
 
-    this.exportFolder = this.gui.addFolder('Export models');
+    this.exportFolder = this.gui.addFolder('Export Models');
     this.createGlobalFolder();
     this.globalFolder.open();
     this.groupFolder.open();
@@ -123,8 +123,8 @@ class Gui {
       model.setSelectedToGroup(2);
     });
 
-    this.groupFolder.showPipes = this.groupFolder.add(model, 'createPipes').name('Show tendons');
-    this.groupFolder.hidePipes = this.groupFolder.add(model, 'removePipes').name('Hide tendons');
+    this.groupFolder.showPipes = this.groupFolder.add(model, 'createPipes').name('Show Tendons');
+    this.groupFolder.hidePipes = this.groupFolder.add(model, 'removePipes').name('Hide Tendons');
   }
 }
 
