@@ -1,0 +1,35 @@
+{
+    "parameterSets": {
+        "Welcome sign": {
+            "Message": "Welcome to...",
+            "To": "Parametric Designs",
+            "height": "2",
+            "radius": "80",
+            "resolution": "30"
+        },
+        "Congo Sign": {
+            "Message": "Congratulations",
+            "To": "openSCAD",
+            "height": "2",
+            "radius": "67",
+            "resolution": "20"
+        },
+        "Happy birthday sign": {
+            "Message": "Happy Birthday!",
+            "To": "To Me",
+            "height": "2",
+            "radius": "67",
+            "resolution": "10"
+        },
+        "Type": {
+            "angle": "58",
+            "beamLength": "2.266",
+            "blockWidth": "1.2",
+            "constrainHeight": "3.6",
+            "depth": "8",
+            "thickness": "0.6",
+            "totalWidth": "4"
+        }
+    },
+    "fileFormatVersion": "1"
+}
