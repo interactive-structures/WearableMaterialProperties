@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font: roboto, sans-serif;
+}
+
+.selectBox {
+    border: 1px solid #55aaff;
+    background-color: rgba(75, 160, 255, 0.3);
+    position: fixed;
+}
+
+.lil-gui {
+    width: 300px !important;
+}
+.lil-gui .title {
+    font-size: 18px !important;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    align-self: center;
+    padding-bottom: 5px;
+}
+.lil-gui .controller {
+    font-size: 14px !important;
+    height: 30px;
+}
+
+.lil-gui input {
+    font-size: 14px !important;
+}
+
+.lil-gui button {
+    font-size: 14px !important;
+    height: 30px;
+}
+  
